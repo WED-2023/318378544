@@ -96,3 +96,26 @@ section{
     font-size: 20px;
 
 }
+#like {
+    text-align: center; /* ממרכז את הכפתור בתוך האלמנט */
+    padding: 20px;
+    background-color: #f0d7ac; /* רקע עדין לאלמנט */
+    border-radius: 10px; /* פינות מעוגלות */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* צל עדין להכבדה */
+    width: fit-content;
+    margin: 20px auto; /* ממרכז את האלמנט ומוסיף ריווח */
+    border: 1px solid #e0e0e0; /* גבול עדין */
+    display: flex; /* מאפשר יישור של תת-אלמנטים */
+    align-items: center; /* ממרכז את התוכן בציר האנכי */
+    height: 50px; /* גובה קבוע לקונטיינר */
+}
+
+.fb-like {
+    margin-top: 0; /* מוסיף ריווח בחלק העליון */
+}
+
+/* הוספת אנימציה עדינה כאשר מרחפים מעל הכפתור */
+.fb-like:hover {
+    transform: scale(1.05); /* גדל את הכפתור ב-5% */
+    transition: transform 0.3s ease; /* מחליק את התנועה */
+}
