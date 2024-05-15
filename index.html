@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="pragma" content="no-cache">
 </head>
 <body>
 <div id="header">
@@ -96,9 +99,10 @@
   <p>מאחלת לכל אחד ואחד, ולעצמי אהבה כזאת.</p>
   <iframe width="560" height="315" src="https://www.youtube.com/embed/xP7noHL7NCM?si=wgWzGshKJusD2tMr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   <div class="photo-gallery">
-    <img src="photo13.jpg">
+    <img src="photo13.JPG">
     <img src="photo39.JPG">
     <img src="photo40.JPG">
+  </div>
   </section>
 
 <section id="playlist" class="section">
@@ -120,72 +124,51 @@
 </section>
 
 <section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
+  <h2 class="section-title">QR code</h2>
+  <div class="single-photo">
+    <img src="qrcode.jpg">
+  </div>
 </section>
 
 <section id="qa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
+  <h2 class="section-title">Q&A</h2>
+  <div>
+    <h3>שלושה הבדלים עיקריים בין Web1, Web2 ו-Web3</h3>
+    <ol>
+      <li><strong>בעלות ושליטה על הנתונים:</strong> Web1 היה קריאה בלבד, Web2 מאפשר אינטראקציה ו-Web3 מעניק שליטה למשתמשים.</li>
+      <li><strong>אופי האינטראקציה והמעורבות:</strong> Web1 סטטי, Web2 אינטראקטיבי ו-Web3 מבוזר ופתוח.</li>
+      <li><strong>טכנולוגיות ואינפרסטרוקטורה:</strong> Web1 מבוסס על HTML סטטי, Web2 משתמש ב-AJAX, CSS, JavaScript ליצירת דפים דינמיים. ענן ו-APIs לאינטגרציה ופיתוח רב עוצמה, ו-Web3 בלוקצ'יין, חוזים חכמים, וטוקנים.</li>
+    </ol>
+    <h3>חיפוש מתכונים לאורח חיים בריא</h3>
+    <p><strong>Web1:</strong> חיפוש יוביל לאתרים סטטיים עם רשימות קבועות של מתכונים. האינטרנט היה בעיקר לקריאה, עם מעט או בלי תמונות ותכנים אינטראקטיביים.</p>
+    <p><strong>Web2:</strong> אתרים כמו Mako ו-השולחן מאפשרים חיפוש מתכונים לפי קריטריונים רבים, עם אפשרות לתגובות ושיתוף. משתמשים יכולים להעלות תמונות ולהשפיע על תוכן האתר.</p>
+    <p><strong>Web3:</strong> פלטפורמות מבוזרות משתמשות בטכנולוגיות כמו בלוקצ'יין לאפשר שיתוף ותגמול של מתכונים מיוחדים. משתמשים יכולים להצביע על מתכונים, לשפר אותם ולקבל תגמולים דיגיטליים עבור תרומתם לקהילה. מידע זה מאוחסן באופן מבוזר, ומבטיח שכל משתמש יכול לראות את המידע האמין והעדכני ביותר.</p>
+  </div>
 </section>
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+  <h2>יצירת קשר</h2>
+  <form action="submit_form.php" method="POST">
+      <div>
+          <label for="email">כתובת מייל:</label>
+          <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+          <label for="message">גוף ההודעה:</label>
+          <textarea id="message" name="message" required></textarea>
+      </div>
+      <div>
+          <label for="emoji">בחר חיוך:</label>
+          <select id="emoji" name="emoji">
+              <option value="😊">😊 חיוך</option>
+              <option value="😂">😂 צחוק</option>
+              <option value="😍">😍 מאוהב</option>
+              <option value="😒">😒 מבואס</option>
+              <option value="😎">😎 מגניב</option>
+          </select>
+      </div>
+      <button type="submit">שלח</button>
+  </form>
 </section>
 
 
