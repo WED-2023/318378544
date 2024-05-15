@@ -96,6 +96,13 @@ section{
 
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    column-gap: 10px;  
+  }
+
 .fb-like {
     display: block;
 	margin: 0 auto;
