@@ -54,7 +54,7 @@ section{
 }
 .section-title {
     text-align: center;
-    font-size: 45px;
+    font-size: 30px;
     color: #333;
 }
 .section p {
@@ -95,7 +95,7 @@ section{
     font-size: 20px;
 
 }
-#like {
+/*#like {
     text-align: center; 
     padding: 20px;
     background-color: #f0d7ac; 
@@ -107,10 +107,12 @@ section{
     display: flex; 
     align-items: center; 
     height: 50px; 
-}
+}*/
 
 .fb-like {
-    margin-top: 0; 
+    display: block;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .fb-like:hover {
